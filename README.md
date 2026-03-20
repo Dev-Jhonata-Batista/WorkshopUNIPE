@@ -41,4 +41,4 @@ python manage.py runserver
 
 ## 👨‍💻 Autor
 
-Jhonata Silva
+Jhonata Batista
