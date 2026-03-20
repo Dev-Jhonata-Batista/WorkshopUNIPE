@@ -1,44 +1,112 @@
-# 🚀 Projeto Django
+# 🚀 Projeto Django - Fábrica de Software
 
-## 📌 Sobre
+## 📌 Sobre o Projeto
 
-Projeto desenvolvido com **Python e Django** para gerenciamento de usuários.
+Este projeto foi desenvolvido como parte de um desafio técnico utilizando **Python** e **Django**.
+
+A aplicação tem como objetivo gerenciar usuários, permitindo operações básicas de cadastro e manipulação de dados.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* Python
+* Django
+* SQLite
+* HTML (Templates)
 
 ---
 
 ## ⚙️ Funcionalidades
 
-* Cadastro de usuários
-* Listagem
-* Edição
-* Exclusão
+* ✅ Cadastro de usuários
+* ✅ Listagem de usuários
+* ✅ Edição de usuários
+* ✅ Exclusão de usuários
 
 ---
 
-## 🛠️ Tecnologias
+## 📂 Estrutura do Projeto
 
-* Python
-* Django
-* SQLite
+```
+meu_projeto_django/
+│── meuapp/
+│── manage.py
+│── db.sqlite3
+```
 
 ---
 
-## ▶️ Como rodar
+## ▶️ Como Executar o Projeto
 
-```bash
+### 1️⃣ Clonar o repositório
+
+```
 git clone https://github.com/dev-jhon/WorkshopUNIPE.git
+```
+
+### 2️⃣ Entrar na pasta
+
+```
 cd WorkshopUNIPE
+```
 
+### 3️⃣ Criar ambiente virtual
+
+```
 python -m venv venv
-venv\Scripts\activate
+```
 
+### 4️⃣ Ativar ambiente virtual
+
+Windows:
+
+```
+venv\Scripts\activate
+```
+
+Linux/macOS:
+
+```
+source venv/bin/activate
+```
+
+### 5️⃣ Instalar dependências
+
+```
 pip install django
+```
+
+### 6️⃣ Rodar as migrações
+
+```
 python manage.py migrate
+```
+
+### 7️⃣ Iniciar servidor
+
+```
 python manage.py runserver
+```
+
+---
+
+## 🌐 Acesso
+
+Abra no navegador:
+
+```
+http://127.0.0.1:8000/
 ```
 
 ---
 
 ## 👨‍💻 Autor
 
-Jhonata Batista
+Desenvolvido por **Jhonata Batista**
+
+---
+
+## 📢 Observações
+
+Este projeto foi desenvolvido para fins educacionais e avaliação técnica.
