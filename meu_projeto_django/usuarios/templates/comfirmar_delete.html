@@ -1,0 +1,5 @@
+<form method="post">
+    {% csrf_token %}
+    <p>Tem certeza que deseja deletar {{ usuario.nome }}?</p>
+    <button type="submit">Sim</button>
+</form>
