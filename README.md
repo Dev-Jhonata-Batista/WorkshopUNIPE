@@ -1,4 +1,4 @@
-# 🚀 Projeto Django - Fábrica de Software
+# 🚀 Projeto Django 
 
 ## 📌 Sobre o Projeto
 
